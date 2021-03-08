@@ -1,5 +1,7 @@
-i = 1 
-while (i < 5):
-  print(i)
-  i = i + 1  
-print("bye!", i)
+for a in range(1,4):
+  for i in range(2,6):
+   print(i, end=" ")
+  print() 
+
+
+
